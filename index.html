@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunbeam cars</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">SunbeamCars Inc.</a>
+        </div>
+        <div class="login">
+            <a href="#">Log in</a>
+        </div>
+    </header>
+    <div class="frontpage">
+        <img src="images/pexels-ryan-west-1719648.jpg" alt="background">
+    </div>
+    <main>
+
+        <form id="form" action="./index.html">
+            <div class="heading">
+                <p>Find a car that suits you</p>
+            </div>
+            <div class="selection">
+                <div class="details">
+                    <label for="pick">I pick it up</label>
+                    <input type="date" name="rental-start" id="start">
+                </div>
+                <div class="details">
+                    <label for="hand">I hand it in</label>
+                    <input type="date" name="rental-end" id="end">
+                </div>
+            </div>
+            <div class="selection">
+                <div class="lower-details">
+                    <label for="people">Number of persons</label>
+                    <input type="number" name="people" id="people" min="1" max="7">
+                </div>
+                <div class="lower-details">
+                    <label for="suitcases">Number of suitcases</label>
+                    <select name="suitcases" id="suitcases">
+                        <option value="0 - only a bag">0 - only a bag</option>
+                        <option value="1">1 suitcase</option>
+                        <option value="2">2 suitcases</option>
+                        <option value="3">3 suitcases</option>
+                        <option value="4">4 suitcases</option>
+                </div>
+                <div class="lower-details">
+                    <label for="suitcases"></label>
+                    <select name="suitcases" id="suitcases">
+
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Submit">
+            </div>
+
+            </div>
+        </form>
+        <!--
+                <section id="offer">
+                    <div class="cars">
+                        <img src="images/car1.png" alt="car">
+                        <h3>Suzuki Swift</h3>
+                        <ul>
+                            <li>Category: Minivan</li>
+                            <li>Persons: 7</li>
+                            <li>Suitcases: 4</li>
+                        </ul>
+                        <div class="price">
+                            <p>DKK850,00</p>
+                        <button>Book now</button>
+                    </div>
+                    </div>
+                    <div class="cars">
+                        <img src="images/car2.png" alt="car">
+                        <h3>Suzuki Swift</h3>
+                        <ul>
+                            <li>Category: Minivan</li>
+                            <li>Persons: 7</li>
+                            <li>Suitcases: 4</li>
+                        </ul>
+                        <div class="price">
+                            <p>DKK1170,00</p>
+                        <button>Book now</button>
+                    </div>
+                    </div>
+                    <div class="cars">
+                        <img src="images/car1.png" alt="car">
+                        <h3>Suzuki Swift</h3>
+                        <ul>
+                            <li>Category: Minivan</li>
+                            <li>Persons: 7</li>
+                            <li>Suitcases: 4</li>
+                        </ul>
+                        <div class="price">
+                            <p>DKK1420,00</p>
+                        <button>Book now</button>
+                        </div>
+                    
+                    </div>
+                </section>
+                -->
+        <div id="output"></div>
+    </main>
+    <script src="data.js"></script>
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,219 @@
+header {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+ align-items: center;
+   height: 60px;
+
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+}
+
+.login a {
+    text-decoration: none;
+    color: black; 
+    font-size: 18px;
+    font-family: "Helvetica Neue";
+    font-weight: 500;
+}
+
+.frontpage img{
+    object-fit: cover;
+    position: relative;
+   max-width: 100%;
+    z-index: 0;
+}
+
+.frontpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 70vh;
+
+}
+
+
+form{
+    position: absolute;
+    top:135px;
+    background-color: white;
+    height: 350px;
+    width: 400px;
+    margin-left: 10%;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.heading p{
+    font-family: "Helvetica Neue";
+    font-weight: 500;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+.selection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.details {
+    display:flex;
+    flex-direction: column;
+   
+}
+
+.details label {
+    margin-bottom: 8px;
+    font-family: "Helvetica Neue";
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+
+.lower-details {
+    display:flex;
+    flex-direction: column;
+   }
+
+   .lower-details label {
+    margin-bottom: 8px;
+    font-family: "Helvetica Neue";
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.button button {
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: black;
+border-radius: 5px;
+border: black solid 1px;
+color: white;
+}
+
+.button button:hover {
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+}
+
+#offer {
+    margin-right: 10%;
+    margin-left: 10%;
+    
+}
+
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.price p {
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.cars li{
+    list-style: none;
+}
+
+.cars h3 {
+    font-size: 25px;
+}
+
+.price button {
+    padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: black;
+border-radius: 5px;
+border: black solid 1px;
+color: white;
+font-weight: 700;
+}
+
+.price button:hover{
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+}
+
+
+
+#output{
+    display: flex;
+    flex-direction: column;
+}
+
+.carcard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  border: 2px solid black;
+  margin-top: 40px;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 5px;
+  font-family: 'Helvetica Neue';
+}
+
+.carcard p{
+    font-size: 15px;
+}
+
+.carcard button{
+    padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: black;
+border-radius: 5px;
+border: black solid 1px;
+color: white;
+font-weight: 700; 
+margin-top: 0;
+
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.price {
+    font-size:23px;
+}
